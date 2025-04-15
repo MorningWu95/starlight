@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+     
+}
+body{
+    background-color: black;
+    color: #666; 
+    text-align: center;
+}
+audio{
+    width: 500px;
+    margin: 30px 0 20px 0;
+}
+.container{
+    height: 420px;
+    overflow: hidden;
+    transition: 0.6s;
+}
+.container .lrc-list li{
+    height: 30px;
+    line-height: 30px;
+    transition: 0.6s;
+}
+.active{
+    color: #fff;
+    transform: scale(1.3);
+    
+}
